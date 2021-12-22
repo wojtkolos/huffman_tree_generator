@@ -28,7 +28,6 @@ for test.txt program count for ASCI:
 121 - 45630
 122 - 78000
 
-
 and generate above tree:
 y: 00000
 h: 000010

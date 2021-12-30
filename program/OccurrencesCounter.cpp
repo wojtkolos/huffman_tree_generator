@@ -1,6 +1,5 @@
 #include "OccurrencesCounter.h"
 
-
 OccurrencesCounter::OccurrencesCounter(std::vector<std::string> inp) : vec(inp) {}
 
 
@@ -16,11 +15,11 @@ void OccurrencesCounter::calculate() {
 }
 
 void OccurrencesCounter::print() {
-    for (int i = 97; i < 123; i++) //wypisanie wyst¹pieñ ma³ych liter ASCII - 97-122
+    for (int i = 97; i < 123; i++) //wypisanie wystÂ¹pieÃ± maÂ³ych liter ASCII - 97-122
         if (count[i] > 0)
             printf("%d - %d \n", i, count[i]);
 
-    for (int i = 65; i < 91; i++) //wypisanie wyst¹pieñ du¿ych liter ASCII - 65-90
+    for (int i = 65; i < 91; i++) //wypisanie wystÂ¹pieÃ± duÂ¿ych liter ASCII - 65-90
         if (count[i] > 0)
             printf("%d - %d \n", i, count[i]);
 }
